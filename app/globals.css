@@ -1,0 +1,22 @@
+.canvas {
+    position: absolute;
+    top: 20px;
+    z-index: 9999;
+}
+
+.p-knob-range {
+    fill: #ffeeda;
+    stroke: #ffeeda;
+}
+
+.p-knob-value {
+    stroke: red;
+    stroke-width: 1px;
+}
+
+.mainPage {
+    display: flex;
+    justify-content: center;
+    margin-top: 160px;
+}
+

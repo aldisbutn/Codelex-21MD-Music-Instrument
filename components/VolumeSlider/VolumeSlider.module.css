@@ -1,0 +1,22 @@
+.volumeInput {
+  transform: rotate(-90deg);
+  width: 350px;
+  appearance: none;
+  background: black;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.volumeInput::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 6px;
+}
+
+.volumeInput::-webkit-slider-thumb {
+  appearance: none;
+  margin-top: -36px;
+  background-color: #ffeeda;
+  height: 80px;
+  width: 30px; 
+  border-radius: 3px;
+}

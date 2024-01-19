@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+.machineBase {
+  width: 1040px;
+  height: 900px;
+  background-color: #ede0b9;
+  border-radius: 2px;
+  position: relative;
+}
+
+.padBase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  aspect-ratio: 1;
+  background-color: #97a089;
+  position: absolute;
+  bottom: 40px;
+  left: 140px;
+}
+
+.padWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(4, 80px);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.volumeWrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 270px;
+  left: -110px;
+}
+
+.screenWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 220px;
+  background-color: #002e63;
+  position: absolute;
+  left: 130px;
+  top: 100px;
+}
+
+.screen {
+  width: 500px;
+  height: 200px;
+  background-color: #ddefef;
+  display: flex;
+  justify-content: center;
+  transition: all 2s ease-in-out;
+}
+
+.screenOff {
+  background-color: #92a0a1;
+}
+
+.waveform {
+  stroke: black;
+}
+
+.nowPlayingHeading {
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  color: #002e63;
+  position: absolute;
+}
+
+.knobWrapper {
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  background-color: #97a089;
+  bottom: 40px;
+  right: 40px;
+}
+
+.twoKnobWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.knobLabelWrapper {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  justify-content: center;
+}
+
+.knobLabelHeading {
+  font-size: 16px;
+  color: #798370;
+  margin: 0;
+}
+
+.knobLabelValueWrapper {
+  width: 30px;
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.knobLabelValue {
+  font-size: 16px;
+  color: #756c63;
+  margin: 0;
+  align-self: center;
+}
+
+.powerButtonWrapper {
+  width: 320px;
+  height: 140px;
+  background-color: #97a089;
+  position: absolute;
+  right: 40px;
+  bottom: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.powerButton {
+  width: 240px;
+  height: 60px;
+  background-color: #f2644a;
+  position: relative;
+  z-index: 10000;
+}
+
+.speakerWrapper {
+  display: flex;
+  position: absolute;
+  right: 440px;
+  top: 30px;
+  z-index: 9999;
+}
+
+.speaker {
+  position: absolute;
+}
+
+.speakerPlaying {
+  position: absolute;
+}
+
+.powerButtonText {
+  font-size: 40px;
+  color: #c7523c;
+  margin: 0;
+  cursor: pointer;
+}
+
+.logoWrapper {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
